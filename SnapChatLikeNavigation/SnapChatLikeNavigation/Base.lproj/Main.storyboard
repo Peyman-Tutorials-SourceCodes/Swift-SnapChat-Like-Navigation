@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="E7A-ox-dRD">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="cyf-fF-lt5">
+            <objects>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="E7A-ox-dRD" customClass="ViewController" customModule="SnapChatLikeNavigation" customModuleProvider="target" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ck7-V1-0Cn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="47" y="15"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="PCW-5n-rzw">
+            <objects>
+                <viewController storyboardIdentifier="VC1" id="e5L-IB-hb0" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dYR-it-tYf"/>
+                        <viewControllerLayoutGuide type="bottom" id="8ky-KS-ck5"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="vKG-Gp-qda">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GBG-rw-5x6">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="66"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="66" id="mqW-Ze-FEM"/>
+                                </constraints>
+                                <items>
+                                    <navigationItem title="Some Title" id="lMq-fp-cZg"/>
+                                </items>
+                            </navigationBar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="VC1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fHd-lq-aGO">
+                                <rect key="frame" x="266" y="211" width="68" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="37"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="GBG-rw-5x6" firstAttribute="top" secondItem="dYR-it-tYf" secondAttribute="bottom" constant="-20" id="nMV-nP-pMY"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="GBG-rw-5x6" secondAttribute="trailing" constant="-20" id="pcC-sW-r7G"/>
+                            <constraint firstItem="GBG-rw-5x6" firstAttribute="leading" secondItem="vKG-Gp-qda" secondAttribute="leadingMargin" constant="-20" id="ytg-q3-qv6"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8fM-Vm-s5y" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="210" y="1010"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="4NY-Jz-7Rr">
+            <objects>
+                <viewController storyboardIdentifier="VC2" id="cN3-fp-jjV" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="zKo-bU-lwF"/>
+                        <viewControllerLayoutGuide type="bottom" id="pEw-n1-EAB"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="DHB-EL-doq">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" red="1" green="0.77220366423116071" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ky5-9O-lTh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="837" y="1010"/>
+        </scene>
+    </scenes>
+</document>
